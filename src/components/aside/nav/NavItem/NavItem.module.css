@@ -1,0 +1,12 @@
+.li {
+  font-size: 28px;
+  text-shadow: 0 0 2px blue;
+  white-space: nowrap;
+  transition: color 0.3s ease-out;
+}
+
+.li.active {
+  color: blueviolet;
+  text-shadow: 0 0 2px black;
+  transition: color 0.3s ease-out;
+}

@@ -1,13 +1,78 @@
-body {
+:root {
+  --main-color: #5f2be2;
+  --main-text-color: #818181;
+  --title-text-color: #545454;
+  --unselected-messages-text: #b0afaf;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  box-sizing: border-box;
+  border: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: inherit;
+  cursor: pointer;
+  opacity: 0.9;
+  transition: opacity 0.7s ease-in;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: 200%;
+}
+
+html,
+body {
+  height: 100%;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  color: var(--main-text-color);
+  line-height: 200%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+

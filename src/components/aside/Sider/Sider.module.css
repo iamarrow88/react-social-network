@@ -1,0 +1,6 @@
+.sider {
+  grid-area: sider;
+  padding: 10px 30px;
+  border: 1px solid rgba(95, 43, 226, 0.3);
+  border-radius: 15px;
+}
