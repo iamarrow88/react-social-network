@@ -1,0 +1,17 @@
+.profileInfo {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
+}
+
+.avatar {
+  max-width: 350px;
+}
+
+.infoBlock {
+  font-size: 24px;
+}
+
+.title {
+  font-weight: bold;
+}

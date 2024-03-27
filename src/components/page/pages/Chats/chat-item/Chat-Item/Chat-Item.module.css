@@ -1,0 +1,32 @@
+.chatItem {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  padding: 10px;
+  width: 100%;
+}
+
+.avatarWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.avatar {
+  max-width: 130px;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+  width: 100%;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 26px;
+  color: var(--title-text-color);
+}
